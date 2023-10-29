@@ -9,7 +9,7 @@
       >
         {{ siteAnthor }}
       </span>
-      <span v-if="icp" class="icp" @click="jumpTo('https://beian.miit.gov.cn')">
+      <span v-if="icp" class="icp" @click="jumpTo('https://beian.miit.gov.cn/')">
         {{ icp }}
       </span>
       <span class="about" @click="aboutSiteModal = true">关于</span>
