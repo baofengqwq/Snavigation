@@ -9,7 +9,7 @@
       >
         {{ siteAnthor }}
       </span>
-      <span v-if="icp" class="icp" @click="jumpTo('https://icp.gov.moe/?keyword=20238099')">
+      <span v-if="icp" class="icp" @click="jumpTo('https://beian.miit.gov.cn')">
         {{ icp }}
       </span>
       <span class="about" @click="aboutSiteModal = true">关于</span>
